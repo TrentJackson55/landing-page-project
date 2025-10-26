@@ -1,0 +1,31 @@
+* {
+    margin:0%;
+    font-family: Roboto, serif;
+}
+
+/*HEADER*/
+.header {
+    display : flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header-links {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    margin-left: 1em;
+}
+
+/*HERO*/
