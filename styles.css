@@ -29,3 +29,55 @@ li {
 }
 
 /*HERO*/
+.hero {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   background-color: #1F2937;
+   max-height: 300px;
+   padding: 75px 25px 75px 25px;
+   align-items: center;
+}
+
+#main-hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    align-items: center;
+    max-width: 350px;
+}
+
+#hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 350px;
+}
+
+#hero-signup {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    min-width: 100px;
+    min-height: 25px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 250px;
+
+}
+
+#hero-pic {
+    max-width: 300px;
+}
+
+/*INFO*/
+.info {
+    display: flex;
+}
+/*QUOTE*/
+.quote {
+    display: flex;
+}
+/*FOOTER*/
+.footer {
+    display: flex;
+}
