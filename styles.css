@@ -61,6 +61,7 @@ li {
     min-height: 25px;
     border-radius: 6px;
     border: none;
+    margin-top: 5px;
     margin-right: 250px;
 
 }
@@ -113,6 +114,22 @@ li {
 /*QUOTE*/
 .quote {
     display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+#quote-signature {
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 500px;
 }
 /*FOOTER*/
 .footer {
